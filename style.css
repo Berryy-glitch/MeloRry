@@ -36,8 +36,8 @@ body{
 .ipod-center {
   position: absolute;
 
-  bottom: 12%;
-  left: 50%;
+  bottom: 35%;
+  left: 46%;
 
   transform: translateX(-50%);
 
@@ -184,15 +184,13 @@ body{
 .base {
   display: grid;
   justify-content: space-around;
-  position: absolute;
-  top: 18%;
-  left: 50%;
+  margin-left: -17.5%;
+  margin-top:-284.5%;
   width: 210px;
   height: 176px;
   background: #C4574F;
   border-radius: 2.5%;
   gap: 2px;
-  transform: translateX(-50%);
 }
 .title {
   margin-top: 3%;
@@ -353,15 +351,13 @@ body{
 .playlist-page {
   display: grid;
   justify-content: space-around;
-  position: absolute;
-  top: 18%;
-  left: 50%;
+  margin-left: -17.5%;
+  margin-top:-284.5%;
   width: 210px;
   height: 176px;
   border-radius: 2.5%;
   position: relative;
   transition: 0.3s ease;
-  transform: translateX(-50%);
 }
 .playlist-header {
   margin-top: 3%;
