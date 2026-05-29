@@ -383,6 +383,8 @@ const analogLoveSongs = [
   {
     title: "you're once in a lifetime",
 
+    shortTitle: "you're once in a...",
+
     artist: "tonybear",
 
     album: "you're once in a lifetime",
@@ -411,7 +413,7 @@ const analogLoveSongs = [
   {
     title: "Really Like You - English Version",
 
-    shortTitle: "Really Like You - English",
+    shortTitle: "Really Like You",
 
     artist: "Gyubin",
 
@@ -483,6 +485,8 @@ const analogLoveSongs = [
   {
     title: "Crescent Moon's Wish",
 
+    shortTitle: "Crescent Moon's...",
+
     artist: "&Team",
 
     album: "雪明かり (Yukiakari)",
@@ -496,6 +500,8 @@ const analogLoveSongs = [
 
   {
     title: "Can't Help Falling In Love",
+
+    shortTitle: "Can't Help Falling...",
 
     artist: "Elvis Presley",
 
@@ -525,7 +531,7 @@ const analogLoveSongs = [
   {
     title: "About You - Orchestral Cover",
 
-    shortTitle: "About You - Orchestral",
+    shortTitle: "About You",
 
     artist: "Tom Voysey Music",
 
@@ -540,6 +546,8 @@ const analogLoveSongs = [
 
   {
     title: "why do we fall in love?",
+
+    shortTitle: "wahy do we fall...",
 
     artist: "Milena",
 
