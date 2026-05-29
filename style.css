@@ -490,6 +490,7 @@ body{
 .player-page {
   display: grid;
   justify-content: space-around;
+  position: absolute;
   margin-left: -17.5%;
   margin-top:-284.5%;
   width: 210px;
