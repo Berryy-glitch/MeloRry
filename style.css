@@ -497,7 +497,6 @@ body{
   height: 176px;
   border-radius: 2.5%;
   gap: 2px;
-  transform: translateX(-50%);
 }
 .now-playing {
   margin-top: 3%;
