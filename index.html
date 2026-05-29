@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Passero+One&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="ipod-base">
+      <img src="images/ipod.music.finalleee.png" class="ipod">
+      <div class="ipod-center">
+          <div class="befaft">
+            <div class="beforee">
+              <img src="images/ipod-center/before.png" 
+                   class="before"
+                   onclick="prevSong()">
+            </div>
+            <div class="menuu">
+              <img src="images/ipod-center/menu.png" 
+                   class="menu" 
+                   onclick="goHome()">
+            </div>
+            <div class="pausee">
+              <img src="images/ipod-center/pausee.png" 
+                   class="pause"
+                   onclick="goPause()">
+            </div>
+            <div class="afteer">
+              <img src="images/ipod-center/after.png" 
+                   class="after"
+                   onclick="nextSong()">
+            </div>
+          </div>
+      </div>
+
+      <div class="playlist">
+
+        <div id="homeScene" class="scene active">
+            <div class="base">
+
+              <div class="title">
+                <p>Playlist :</p>
+              </div>
+
+              <div class="serotonin-boost"
+                  onclick="openPlaylist('playlistSceneserotonin', serotoninBoostSongs, 'serotoninContainer', 'serotoninSongs')">
+                <p>Serotonin Boost ☘︎</p>
+              </div>
+
+              <div class="brain-fuel"
+                   onclick="openPlaylist('playlistScenefuel', brainFuelSongs, 'brainContainer', 'fuelSongs')">
+                <p>Brain Fuel</p>
+              </div>
+
+              <div class="analog-love"
+                   onclick="openPlaylist('playlistSceneanalog', analogLoveSongs, 'analogContainer', 'analogSongs')">
+                <p>Analog Love</p>
+              </div>
+            </div>
+        </div>
+
+        <div id="playlistSceneserotonin" class="scene">
+          <div class="playlist-page">
+
+                <div class="playlist-header">
+                  <p>Serotonin Boost</p>
+                  <div class="tonin">
+                    <p onclick="letter(this)">⤵</p>
+                  </div>
+                </div>
+              
+              <div id="serotoninContainer" class="songs-container">
+
+              </div>
+
+              <div id="noteTonin" class="playlist-note">
+
+                <div class="note-content">
+                  <p>
+                    As a human, I do not always have positive thoughts or stable emotions. There are many days when I feel like I am not truly useful to anyone — 
+                    like a small coin dropped onto the street, too insignificant for anyone to even notice.
+                  
+                    Thankfully, I was born in an era where music can be found so easily, even when I am simply lying in bed doing nothing at all. Somehow, songs have a 
+                    way of slowly bringing my spirit back again.
+        
+                    And... this playlist is filled with songs I always listen to whenever I need to bring my mood back again. Yah...
+                  </p>
+                </div>
+
+                <div id="s-tonin" class="note-slide">
+                  <div class="note-big"></div>
+                  <div class="note-slider"></div>
+                </div>
+
+              </div>
+                
+              <div class="slide">
+                <div class="big"></div>
+                <div class="slider"></div>
+              </div>
+
+          </div>
+        </div>
+
+        <div id="playlistScenefuel" class="scene">
+          <div class="playlist-page">
+
+                <div class="playlist-header">
+                  <p>Brain Fuel</p>
+                  <div class="fueel">
+                    <p onclick="letter(this)">⤵</p>
+                  </div>
+                </div>
+              
+              <div id="brainContainer" class="songs-container">
+
+              </div>
+
+              <div id="noteFuel" class="playlist-note">
+
+                <div class="note-content">
+                  <p>
+                    Sometimes I get tired of my own thoughts, my own expectations, and everything I still have not managed to become.
+
+                    And whenever that happens, I end up returning to these songs again and again. Because somehow, they always remind me that it is okay to move forward slowly.
+
+                    I guess that is why these songs mean so much to me. Huee...
+                  </p>
+                </div>
+
+                <div id="s-fuel" class="note-slide">
+                  <div class="note-big"></div>
+                  <div class="note-slider"></div>
+                </div>
+
+              </div>
+                
+              <div class="slide">
+                <div class="big"></div>
+                <div class="slider"></div>
+              </div>
+
+          </div>
+        </div>
+
+        <div id="playlistSceneanalog" class="scene">
+          <div class="playlist-page">
+
+                <div class="playlist-header">
+                  <p>Analog Love</p>
+                  <div class="sweet">
+                    <p onclick="letter(this)">⤵</p>
+                  </div>
+                </div>
+              
+              <div id="analogContainer" class="songs-container">
+
+              </div>
+
+              <div id="noteLog" class="playlist-note">
+
+                <div class="note-content">
+                  <p>
+                    I don't know how to say that I'm in love with someone. Perhaps it's because those three words, “I love you,” could never fully justify the way I feel about them. 
+                    And maybe that is why I always find myself turning to songs instead. Somehow, there is always a song that understands me better than I understand myself — a song 
+                    that says everything I could never bring myself to say out loud.
+              
+                    This playlist, at least maybe, is the closest thing I have to a confession. It tells the story of every stage of my journey of falling in love: meeting someone unexpectedly, 
+                    slowly letting them become a part of me, loving them more deeply than I intended to, and then watching everything quietly drift away. Until one day, all that is left is silence — 
+                    the kind of silence that stays after someone important is gone.
+            
+                    But even then, I still want to remember it kindly. Because to love is never a mistake. So, that's why I made this playlist, hue!
+                  </p>  
+                </div>
+
+                <div class="note-slide">
+                  <div class="note-big"></div>
+                  <div class="note-slider"></div>
+                </div>
+
+              </div>
+                
+              <div class="slide">
+                <div class="big"></div>
+                <div class="slider"></div>
+              </div>
+
+          </div>
+        </div>
+
+        <div id="playerScene" class="scene">
+
+              <div class="player-page">
+
+                <div class="now-playing">
+                  <p id="playerNow">Now playing</p>
+                </div>
+
+                <div class="music-card">
+                  <div class="cover">
+                    <img id="playerCover">
+                  </div>
+
+                  <div class="player-info">
+                    <p id="playerSongTitle"></p>
+                    <p id="playerArtist"></p>
+                    <p id="playerAlbum"></p>
+                  </div>
+
+                  <div class="progress">
+
+                    <div class="progress-wrapper">
+
+                      <input
+                        type="range"
+                        min="0"
+                        max="100"
+                        value="50"
+                        id="progress">
+
+                      <img
+                        src="images/chibi.png"
+                        class="fake-thumb">
+
+                    </div>
+
+                  </div>
+                </div>
+                  
+              </div>
+
+        </div>
+
+        <audio id="audioPlayer"></audio>
+
+      </div>
+    </div>
+  
+  <script src="script.js"></script>
+  </body>
+</html>
