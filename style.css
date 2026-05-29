@@ -491,8 +491,8 @@ body{
   display: grid;
   justify-content: space-around;
   position: absolute;
-  top: 18%;
-  left: 50%;
+  margin-left: -17.5%;
+  margin-top:-284.5%;
   width: 210px;
   height: 176px;
   border-radius: 2.5%;
