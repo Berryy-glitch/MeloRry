@@ -36,8 +36,8 @@ body{
 .ipod-center {
   position: absolute;
 
-  bottom: 35%;
-  left: 46%;
+  bottom: 12%;
+  left: 50%;
 
   transform: translateX(-50%);
 
@@ -184,13 +184,15 @@ body{
 .base {
   display: grid;
   justify-content: space-around;
-  margin-left: -17.5%;
-  margin-top:-284.5%;
+  position: absolute;
+  top: 18%;
+  left: 50%;
   width: 210px;
   height: 176px;
   background: #C4574F;
   border-radius: 2.5%;
   gap: 2px;
+  transform: translateX(-50%);
 }
 .title {
   margin-top: 3%;
@@ -351,13 +353,15 @@ body{
 .playlist-page {
   display: grid;
   justify-content: space-around;
-  margin-left: -17.5%;
-  margin-top:-284.5%;
+  position: absolute;
+  top: 18%;
+  left: 50%;
   width: 210px;
   height: 176px;
   border-radius: 2.5%;
   position: relative;
   transition: 0.3s ease;
+  transform: translateX(-50%);
 }
 .playlist-header {
   margin-top: 3%;
@@ -490,12 +494,14 @@ body{
 .player-page {
   display: grid;
   justify-content: space-around;
-  margin-left: -17.5%;
-  margin-top:-284.5%;
+  position: absolute;
+  top: 18%;
+  left: 50%;
   width: 210px;
   height: 176px;
   border-radius: 2.5%;
   gap: 2px;
+  transform: translateX(-50%);
 }
 .now-playing {
   margin-top: 3%;
@@ -746,4 +752,68 @@ body{
 }
 #s-fuel .note-slider {
   background: #6D7694;
+}
+
+@media (max-width: 600px) {
+
+  .ipod-base {
+    width: 95vw;
+  }
+
+  .player-page,
+  .playlist-page,
+  .base {
+    width: 185px;
+    height: 165px;
+
+    top: 16%;
+  }
+
+  .music-card {
+    width: 175px;
+    height: 100px;
+  }
+
+  .now-playing,
+  .playlist-header,
+  .song {
+    width: 175px;
+  }
+
+  #progress,
+  .progress-wrapper {
+    width: 175px;
+  }
+
+  .fake-thumb {
+    width: 42px;
+    height: 42px;
+  }
+
+  .beforee,
+  .afteer,
+  .menuu,
+  .pausee {
+    width: 52px;
+    height: 52px;
+  }
+
+  .before,
+  .after {
+    width: 26px;
+    height: 26px;
+    margin-top: 13px;
+  }
+
+  .pause {
+    width: 35px;
+    height: 35px;
+    margin-top: 9px;
+  }
+
+  .menu {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+  }
 }
