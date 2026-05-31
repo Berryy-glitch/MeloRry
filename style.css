@@ -758,8 +758,8 @@ body{
   }
 
   .ipod {
-    width: 95%;
-    max-width: 430px;
+    width: 100%;
+    max-width: 500px;
   }
 
   /* SCREEN */
@@ -767,8 +767,8 @@ body{
   .playlist-page,
   .player-page {
 
-    width: 185px;
-    height: 165px;
+    width: 100px;
+    height: 90px;
 
     margin-top: -150%;
     margin-left: -10%;
@@ -776,15 +776,15 @@ body{
 
   /* PLAYER */
   .music-card {
-    width: 175px;
-    height: 100px;
+    width: 90px;
+    height: 15px;
     gap: 8px;
   }
 
   .now-playing,
   .playlist-header,
   .song {
-    width: 175px;
+    width: 90px;
   }
 
   /* PROGRESS */
