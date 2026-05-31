@@ -749,7 +749,7 @@ body{
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
 
   .ipod-base {
     width: 100vw;
@@ -770,8 +770,8 @@ body{
     width: 185px;
     height: 165px;
 
-    margin-top: -282%;
-    margin-left: -16%;
+    margin-top: -150%;
+    margin-left: -10%;
   }
 
   /* PLAYER */
