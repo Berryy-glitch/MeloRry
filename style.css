@@ -185,7 +185,7 @@ body{
   display: grid;
   justify-content: space-around;
   margin-left: -17.5%;
-  margin-top: -284.5%;
+  margin-top: -284%;
   width: 210px;
   height: 176px;
   background: #C4574F;
@@ -352,7 +352,7 @@ body{
   display: grid;
   justify-content: space-around;
   margin-left: -17.5%;
-  margin-top:-284.5%;
+  margin-top: -284%;
   width: 210px;
   height: 176px;
   border-radius: 2.5%;
@@ -491,7 +491,7 @@ body{
   display: grid;
   justify-content: space-around;
   margin-left: -17.5%;
-  margin-top:-284.5%;
+  margin-top: -284%;
   width: 210px;
   height: 176px;
   border-radius: 2.5%;
@@ -751,7 +751,7 @@ body{
 @media (max-width: 600px) {
 
   .ipod-base {
-    width: 100px;
+    width: 100%;
   }
 
   .player-page,
