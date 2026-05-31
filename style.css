@@ -748,24 +748,37 @@ body{
   background: #6D7694;
 }
 
+
 @media (max-width: 600px) {
 
   .ipod-base {
-    width: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
   }
 
-  .player-page,
+  .ipod {
+    width: 95%;
+    max-width: 430px;
+  }
+
+  /* SCREEN */
+  .base,
   .playlist-page,
-  .base {
+  .player-page {
+
     width: 185px;
     height: 165px;
 
-    top: 16%;
+    margin-top: -282%;
+    margin-left: -16%;
   }
 
+  /* PLAYER */
   .music-card {
     width: 175px;
     height: 100px;
+    gap: 8px;
   }
 
   .now-playing,
@@ -774,16 +787,22 @@ body{
     width: 175px;
   }
 
+  /* PROGRESS */
+  .progress {
+    margin-left: -180px;
+  }
+
   #progress,
   .progress-wrapper {
     width: 175px;
   }
 
   .fake-thumb {
-    width: 42px;
-    height: 42px;
+    width: 40px;
+    height: 40px;
   }
 
+  /* BUTTONS */
   .beforee,
   .afteer,
   .menuu,
@@ -794,14 +813,14 @@ body{
 
   .before,
   .after {
-    width: 26px;
-    height: 26px;
-    margin-top: 13px;
+    width: 24px;
+    height: 24px;
+    margin-top: 14px;
   }
 
   .pause {
-    width: 35px;
-    height: 35px;
+    width: 34px;
+    height: 34px;
     margin-top: 9px;
   }
 
@@ -809,5 +828,10 @@ body{
     width: 30px;
     height: 30px;
     margin-top: 10px;
+  }
+
+  .ipod-center {
+    bottom: 10%;
+    left: 46%;
   }
 }
