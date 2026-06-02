@@ -757,6 +757,14 @@ body{
     width: 100%;
   }
 
+  .base {
+    border: 3px solid lime;
+  }
+
+  body {
+    background: blue !important;
+  }
+
   .title,
   .serotonin-boost,
   .brain-fuel,
