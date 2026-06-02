@@ -754,7 +754,7 @@ body{
 @media (max-width: 2000px) {
 
   .ipod-base {
-     width: 150vw;
+     width: 200vw;
      border: 2px solid red;
   }
     
