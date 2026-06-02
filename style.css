@@ -755,11 +755,13 @@ body{
 
   .ipod-base {
      width: 85vw;
+     border: 2px solid red;
   }
     
   .ipod {
    width: 100%;
    height: auto;
+   border: 2px solid blue;
   }
 
   body {
