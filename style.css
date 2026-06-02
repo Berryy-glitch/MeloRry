@@ -750,3 +750,17 @@ body{
 #s-fuel .note-slider {
   background: #6D7694;
 }
+
+@media (max-width: 900px) {
+
+  .ipod {
+    width: 100%;
+
+  .title,
+  .serotonin-boost,
+  .brain-fuel,
+  .analog-love {
+    width: 95%;
+  }
+
+}
