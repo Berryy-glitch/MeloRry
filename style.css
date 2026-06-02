@@ -37,11 +37,11 @@ body{
   position: absolute;
 
   bottom: 35%;
-  left: 46%;
+  left: 47.75%;
 
   transform: translateX(-50%);
 
-  width: 45%;
+  width: 25%;
 
   display: flex;
   justify-content: center;
@@ -175,25 +175,27 @@ body{
 
 
 .playlist {
-  background: transparent;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
+    position: absolute;
+
+    top: 33.7%;
+    left: 45.9%;
+
+    transform: translateX(-50%);
+
+    width: 24%;
+    height: 19.5%;
 }
 .base {
   display: grid;
   justify-content: space-around;
-  margin-left: -17.5%;
-  margin-top:-284.5%;
-  width: 210px;
-  height: 176px;
   background: #C4574F;
   border-radius: 2.5%;
   gap: 2px;
+  width: 100%;
+  height: 100%;
+  padding: 3%;
 }
 .title {
-  margin-top: 3%;
   justify-self: center;
   width: 200px;
   height: 25px;
@@ -330,9 +332,13 @@ body{
 
 .scene {
   display: none;
+  width: 100%;
+  height: 100%;
 }
 .scene.active {
   display: block;
+  width: 100%;
+  height: 100%;
 }
 
 
@@ -351,13 +357,11 @@ body{
 .playlist-page {
   display: grid;
   justify-content: space-around;
-  margin-left: -17.5%;
-  margin-top:-284.5%;
-  width: 210px;
-  height: 176px;
   border-radius: 2.5%;
   position: relative;
   transition: 0.3s ease;
+  width: 100%;
+  height: 100%;
 }
 .playlist-header {
   margin-top: 3%;
@@ -490,12 +494,11 @@ body{
 .player-page {
   display: grid;
   justify-content: space-around;
-  margin-left: -17.5%;
-  margin-top:-284.5%;
-  width: 210px;
-  height: 176px;
+  position: absolute;
   border-radius: 2.5%;
   gap: 2px;
+  width: 100%;
+  height: 100%;
 }
 .now-playing {
   margin-top: 3%;
