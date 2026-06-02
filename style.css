@@ -754,22 +754,25 @@ body{
 @media (max-width: 900px) {
 
   .ipod {
-    width: 100%;
-  }
-
-  .base {
-    border: 3px solid lime;
+   width: min(85vw, 500px);
+   height: auto;
   }
 
   body {
-    background: blue !important;
+   background:#ECECEC;
+
+   min-height:100vh;
+
+   display:flex;
+   justify-content:center;
+   align-items:center;
   }
 
   .title,
   .serotonin-boost,
   .brain-fuel,
   .analog-love {
-    width: 95%;
+    width: 25%;
   }
 
 }
