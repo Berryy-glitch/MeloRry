@@ -778,7 +778,8 @@ body{
   .serotonin-boost,
   .brain-fuel,
   .analog-love {
-    width: 70%;
+    width: 70% !important;
+    background: blue !important;
   }
 
 }
