@@ -754,7 +754,7 @@ body{
 @media (max-width: 2000px) {
 
   .ipod-base {
-     width: 85vw;
+     width: 150vw;
      border: 2px solid red;
   }
     
@@ -765,7 +765,7 @@ body{
   }
 
   body {
-   background: red;
+   background: transparent;
 
    min-height: 100vh;
 
@@ -778,8 +778,7 @@ body{
   .serotonin-boost,
   .brain-fuel,
   .analog-love {
-    width: 70% !important;
-    background: blue !important;
+    width: 70%;
   }
 
 }
