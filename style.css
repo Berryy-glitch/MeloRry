@@ -37,11 +37,11 @@ body{
   position: absolute;
 
   bottom: 35%;
-  left: 47%;
+  left: 40%;
 
   transform: translateX(-50%);
 
-  width: 25%;
+  width: 50%;
 
   display: flex;
   justify-content: center;
@@ -757,7 +757,7 @@ body{
 @media (min-width: 320px) and (max-width: 700px) {
 
   body {
-   background: transparent;
+   background-color: #ECECEC !important;
 
    min-height: 10vh;
 
@@ -791,7 +791,7 @@ body{
   .brain-fuel,
   .analog-love {
     width: 100px;
-    height: 15px;
+    height: 5px;
     padding: 2px;
     justify-content: flex-start;
   }
@@ -800,15 +800,13 @@ body{
   .serotonin-boost p,
   .brain-fuel p,
   .analog-love p {
-    font-size: 7px;
-    margin-top: 1.5%;
-    margin-left: 5%;
+    font-size: 5px;
     color: #fff;
   }
 
   .ipod-center {
     position: absolute;
-    margin-top: 52%;
+    margin-top: 50%;
     margin-left: 0%;
     width: 100%;
     display: flex;
