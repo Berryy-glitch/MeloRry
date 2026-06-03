@@ -805,9 +805,8 @@ body{
 
   .ipod-center {
     position: absolute;
-    bottom: 10%;
-    left: 20%;
-    transform: translateX(-50%);
+    margin-top: 50%;
+    margin-left: 20%;
     width: 100%;
     display: flex;
     justify-content: center;
