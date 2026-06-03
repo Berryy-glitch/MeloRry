@@ -755,11 +755,13 @@ body{
 
   .ipod-base {
      width: 150vw;
+     border: 2px solid red;
   }
     
   .ipod {
    width: 100%;
    height: auto;
+   border: 2px solid blue;
   }
 
   body {
@@ -776,7 +778,17 @@ body{
   .serotonin-boost,
   .brain-fuel,
   .analog-love {
-    width: 70%;
+    width: 80%;
+    height: 25px;
   }
 
+  .title p,
+  .serotonin-boost p,
+  .brain-fuel p,
+  .analog-love p {
+    font-size: 10px;
+    margin-top: 1.5%;
+    margin-left: 5%;
+    color: #fff;
+  }
 }
