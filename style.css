@@ -37,7 +37,7 @@ body{
   position: absolute;
 
   bottom: 35%;
-  left: 47.75%;
+  left: 47%;
 
   transform: translateX(-50%);
 
@@ -53,6 +53,7 @@ body{
 
   display: flex;
   justify-content: space-between;
+  gap: 5px;
   align-items: center;
   background: transparent;
 }
@@ -805,12 +806,11 @@ body{
 
   .ipod-center {
     position: absolute;
-    margin-top: 50%;
-    margin-left: 20%;
+    margin-top: 52%;
+    margin-left: 0%;
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: pink;
     }
 
   .befaft {
@@ -819,12 +819,13 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 5px;
     background: transparent;
   }
   
   .beforee {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background: #ADADAD;
     border-radius: 50%;
     display: flex; 
@@ -838,8 +839,8 @@ body{
   }
   
   .afteer {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background: #ADADAD;
     border-radius: 50%;
     display: flex; 
@@ -852,8 +853,8 @@ body{
     height: 20px;
   }
   .menuu {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background: #A21C13;
     border-radius: 50%;
     display: flex;
@@ -866,8 +867,8 @@ body{
     height: 20px;
   }
   .pausee {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background: #A21C13;
     border-radius: 50%;
     display: flex;
