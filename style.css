@@ -805,17 +805,12 @@ body{
 
   .ipod-center {
     position: absolute;
-  
-    bottom: 70%;
-    left: 30%;
-
+    bottom: 10%;
+    left: 20%;
     transform: translateX(-50%);
-    
     width: 100%;
-  
     display: flex;
     justify-content: center;
-  
     background-color: pink;
     }
 
