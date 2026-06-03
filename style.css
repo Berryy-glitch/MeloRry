@@ -751,7 +751,135 @@ body{
   background: #6D7694;
 }
 
-@media (max-width: 1000px) {
+/* HP */
+@media (max-width: 768px) {
+
+   body {
+   background: transparent;
+
+   min-height: 10vh;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+
+.ipod-base {
+     width: 100%;
+     border: 2px solid red;
+  }
+    
+  .ipod {
+   width: 100%;
+   height: auto;
+   border: 2px solid blue;
+  }
+
+  .base {
+   display: grid;
+   justify-content: space-around;
+   background: #C4574F;
+   border-radius: 2.5%;
+   gap: 2px;
+   padding: 3%;
+  }
+  
+  .title,
+  .serotonin-boost,
+  .brain-fuel,
+  .analog-love {
+    width: 100%;
+    height: 25px;
+  }
+
+  .title p,
+  .serotonin-boost p,
+  .brain-fuel p,
+  .analog-love p {
+    font-size: 10px;
+    margin-top: 1.5%;
+    margin-left: 5%;
+    color: #fff;
+  }
+
+  .ipod-center {
+    position: absolute;
+  
+    bottom: 30%;
+    left: 40%;
+  
+    width: 5%;
+  
+    display: flex;
+    justify-content: center;
+  
+    background-color: pink;
+    }
+}
+
+
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+  
+.ipod-base {
+     width: 100vw;
+     border: 2px solid red;
+     margin-top: 15px;
+  }
+    
+  .ipod {
+   width: 100%;
+   height: auto;
+   border: 2px solid blue;
+   margin-top: 15px;
+  }
+
+  body {
+   background: transparent;
+
+   min-height: 50vh;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+
+  .title,
+  .serotonin-boost,
+  .brain-fuel,
+  .analog-love {
+    width: 100%;
+    height: 10px;
+  }
+
+  .title p,
+  .serotonin-boost p,
+  .brain-fuel p,
+  .analog-love p {
+    font-size: 10px;
+    margin-top: 1.5%;
+    margin-left: 5%;
+    color: #fff;
+  }
+
+  .ipod-center {
+    position: absolute;
+  
+    bottom: 30%;
+    left: 40%;
+  
+    width: 5%;
+  
+    display: flex;
+    justify-content: center;
+  
+    background-color: pink;
+    }
+}
+
+
+/* Desktop */
+@media (min-width: 1025px) {
 
   .ipod-base {
      width: 100vw;
@@ -808,3 +936,5 @@ body{
     background-color: pink;
     }
 }
+
+
