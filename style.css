@@ -10,7 +10,7 @@ body{
   min-height:100vh;
 
   display:flex;
-  justify-content:center;
+  justify-content:center; 
   align-items:center;
 }
 
@@ -806,10 +806,10 @@ body{
   .ipod-center {
     position: absolute;
   
-    bottom: 30%;
-    left: 40%;
+    top: 30%;
+    left: 30%;
   
-    width: 15%%;
+    width: 100%;
   
     display: flex;
     justify-content: center;
@@ -818,7 +818,7 @@ body{
     }
 
   .befaft {
-    width: 50%;
+    width: 100%;
   
     display: flex;
     justify-content: space-between;
@@ -827,8 +827,8 @@ body{
   }
   
   .beforee {
-    width: 5%;
-    height: 5%;
+    width: 20%;
+    height: 20%;
     background: #ADADAD;
     border-radius: 50%;
     margin-top: -5px;
@@ -844,10 +844,8 @@ body{
   }
   .before {
     image-rendering: pixelated;
-    width: 10px;
-    height: 10px;
-    margin-right: 2%;
-    margin-top: 16px;
+    width: 50px;
+    height: 50px;
   }
   
   .afteer {
