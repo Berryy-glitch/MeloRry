@@ -754,6 +754,16 @@ body{
 
 /* HP 1*/
 @media (min-width: 320px) and (max-width: 700px) {
+
+  body {
+   background: transparent;
+
+   min-height: 10vh;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
   
 .ipod-base {
      width: 100%;
@@ -766,14 +776,13 @@ body{
    border: 2px solid blue;
   }
 
-  body {
-   background: transparent;
-
-   min-height: 10vh;
-
-   display: flex;
-   justify-content: center;
-   align-items: center;
+  .base {
+   display: grid;
+   justify-content: space-around;
+   background: #C4574F;
+   border-radius: 2.5%;
+   gap: 2px;
+   padding: 3%;
   }
 
   .title,
@@ -800,13 +809,134 @@ body{
     bottom: 30%;
     left: 40%;
   
-    width: 5%;
+    width: 15%%;
   
     display: flex;
     justify-content: center;
   
     background-color: pink;
     }
+
+  .befaft {
+    width: 50%;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+  }
+  
+  .beforee {
+    width: 5%;
+    height: 5%;
+    background: #ADADAD;
+    border-radius: 50%;
+    margin-top: -5px;
+  }
+  .beforee:hover {
+    box-shadow:
+    inset 0 0 0 6px rgba(255, 255, 255, 0.35),
+      0 0 0 4px #ffffff55;
+      background-color: #ADADAD;
+  }
+  .beforee:active {
+    transform: scale(0.95);
+  }
+  .before {
+    image-rendering: pixelated;
+    width: 10px;
+    height: 10px;
+    margin-right: 2%;
+    margin-top: 16px;
+  }
+  
+  .afteer {
+    width: 65px;
+    height: 65px;
+    background: #ADADAD;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+    box-shadow:
+      inset 0 0 0 6px rgba(255, 255, 255, 0.25),
+      0 6px 0 #6f6f6f;
+    transition: all 0.2s ease;
+  }
+  .afteer:hover {
+    box-shadow:
+    inset 0 0 0 6px rgba(255, 255, 255, 0.35),
+      0 0 0 4px #ffffff55;
+      background-color: #ADADAD;
+  }
+  .afteer:active {
+   transform: scale(0.95);
+  }
+  .after {
+   image-rendering: pixelated;
+    width: 32px;
+    height: 32px;
+    margin-left: 2%;
+    margin-top: 16px;
+  }
+  .menuu {
+    width: 65px;
+    height: 65px;
+    background: #A21C13;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+    box-shadow:
+      inset 0 0 0 6px rgba(255, 255, 255, 0.25),
+      0 6px 0 #6e110a;
+    transition: all 0.2s ease;
+  }
+  .menuu:hover {
+    box-shadow:
+    inset 0 0 0 6px rgba(255, 255, 255, 0.35),
+      0 0 0 4px #ffffff55;
+      background-color: #A21C13;
+  }
+  .menuu:active {
+    transform: scale(0.95);
+  }
+  .menu {
+    image-rendering: pixelated;
+    width: 37px;
+    height: 37px;
+    margin-left: 1%;
+    margin-top: 13px;
+  }
+  .pausee {
+    width: 65px;
+    height: 65px;
+    background: #A21C13;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+    box-shadow:
+      inset 0 0 0 6px rgba(255, 255, 255, 0.25),
+      0 6px 0 #6e110a;
+    transition: all 0.2s ease;
+  }
+  .pausee:hover {
+    box-shadow:
+    inset 0 0 0 6px rgba(255, 255, 255, 0.35),
+      0 0 0 4px #ffffff55;
+      background-color: #A21C13;
+  }
+  .pausee:active {
+    transform: scale(0.95);
+  }
+  .pause {
+    image-rendering: pixelated;
+    width: 45px;
+    height: 45px;
+    margin-left: 4px;
+    margin-top: 10px;
+  }
 }
 
 /* HP 2 */
@@ -877,7 +1007,7 @@ body{
 
 
 /* Tablet */
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1000px) {
   
 .ipod-base {
      width: 100vw;
